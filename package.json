@@ -1,0 +1,48 @@
+{
+  "name": "pixipoc",
+  "version": "0.0.1",
+  "description": "An electron-nuxt project",
+  "main": "./dist/main/index.js",
+  "scripts": {
+    "dev": "node .electron-nuxt/dev.js",
+    "build": "node .electron-nuxt/build.js",
+    "test": "",
+    "preinstall": "node .electron-nuxt/check-engines.js",
+    "postinstall": "electron-builder install-app-deps "
+  },
+  "keywords": [],
+  "author": "Ruben Soerdien <ruben.soerdien@hotmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/michalzaq12/electron-nuxt/blob/master/README.md",
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "resolutions": {
+    "@types/node": "12.12.6"
+  },
+  "devDependencies": {
+    "@xpda-dev/core": "^0.1.5",
+    "@xpda-dev/electron-builder": "^0.2.1",
+    "@xpda-dev/electron-launcher": "^0.2.1",
+    "@xpda-dev/webpack-step": "^0.1.2",
+    "browser-env": "3.3.0",
+    "cross-env": "7.0.2",
+    "deepmerge": "4.2.2",
+    "electron": "8.2.5",
+    "electron-builder": "22.6.0",
+    "electron-debug": "3.0.1",
+    "native-ext-loader": "2.3.0",
+    "nuxt": "2.12.2",
+    "vue-devtools": "5.1.3",
+    "webpack": "4.43.0",
+    "webpack-node-externals": "1.7.2"
+  },
+  "dependencies": {
+    "pixi-projection": "^0.3.11",
+    "pixi-tween": "^0.2.0",
+    "pixi-viewport": "^4.11.1",
+    "pixi.js-legacy": "^5.2.4",
+    "svg-path-parser": "^1.1.0",
+    "svg-path-properties": "^1.0.4"
+  }
+}
