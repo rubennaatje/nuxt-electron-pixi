@@ -31,22 +31,7 @@ export class TrackPixi extends SVGPixi {
     this.geometry.graphicsData[3].lineStyle.color = 0x222222;
     this.geometry.graphicsData[3].lineStyle.width = 4;
     this.geometry.invalidate();
-    this.drawMarker(800, 's1', 10, 2, 0xff0000, 'S2');
-    this.drawMarker(1758, 's3', 10, 2, 0xff00ff, 'S3');
-    // test.destroy();
-    // corner names
-    this.drawMarker(150, '1', 10, 1, 0xf0f0f0, '1');
 
-    // corner names
-    this.drawMarker(260, '1', 10, 1, 0xf0f0f0, '2');
-    this.drawMarker(380, '1', 10, 1, 0xf0f0f0, '3');
-    this.drawMarker(410, '1', 10, 1, 0xf0f0f0, '4');
-    this.drawMarker(444, '1', 10, 1, 0xf0f0f0, '5');
-    this.drawMarker(570, '1', 10, 1, 0xf0f0f0, '6');
-    this.drawMarker(845, '1', 10, 1, 0xf0f0f0, '7', 1);
-    this.drawMarker(880, '1', 10, 1, 0xf0f0f0, '8', 1);
-    this.drawMarker(925, '1', 10, 1, 0xf0f0f0, '9', 1);
-    this.drawMarker(1065, '1', 10, 1, 0xf0f0f0, '9');
   }
 
   addPitlane(path){
