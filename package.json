@@ -38,6 +38,7 @@
     "webpack-node-externals": "1.7.2"
   },
   "dependencies": {
+    "mathjs": "^7.0.0",
     "pixi-projection": "^0.3.11",
     "pixi-tween": "^0.2.0",
     "pixi-viewport": "^4.11.1",

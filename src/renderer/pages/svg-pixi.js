@@ -22,8 +22,6 @@ export class SVGPixi extends PIXI.Graphics {
       }
     });
     this.closePath();
-
-    this.lineStyle(4.0, 0xffffff);
   }
 
   getTotalLength() {
